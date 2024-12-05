@@ -1647,6 +1647,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerContainer 1
       objectReference: {fileID: 0}
+    - target: {fileID: 484716981350601357, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -760
+      objectReference: {fileID: 0}
+    - target: {fileID: 484716981350601357, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 302
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263510532820083685, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 446
+      objectReference: {fileID: 0}
     - target: {fileID: 3900353501004897874, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1694,6 +1706,30 @@ PrefabInstance:
     - target: {fileID: 4529960773440536746, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728328798408321848, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728328798408321848, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -74
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580664989521931053, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8580664989521931053, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 355
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701937727206366402, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701937727206366402, guid: 7343ebc3e65972849af29b4d87ca7a9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -74
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
