@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour
         Health();
         shoot();
         MovementDirection();
+        UpdateAnimations();
     }
 
     void Movement()
@@ -108,6 +109,23 @@ void flip()
     isFacingRight = !isFacingRight;
     transform.Rotate(0f, 180f, 0f);
 }
+
+void UpdateAnimations()
+{
+    Animator anim = transform.GetChild(0).transform.GetComponent<Animator>();
+
+    anim.SetBool("isGrounded", hit.collider);
+
+    if (inputs != 0)
+    {
+        anim.SetBool("isMoving", true);
+    }
+    else
+    {
+        anim.SetBool("isMoving", false);
+    }
+}
+
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if (other.gameObject.CompareTag("Hazard"))
