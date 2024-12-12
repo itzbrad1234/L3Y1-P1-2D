@@ -351,6 +351,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI-PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 3241070137893927420, guid: 86225fa18e5f4444fa1d5693ac08c1a6, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241070137893927420, guid: 86225fa18e5f4444fa1d5693ac08c1a6, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241070137893927420, guid: 86225fa18e5f4444fa1d5693ac08c1a6, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 4118077242357859266, guid: 86225fa18e5f4444fa1d5693ac08c1a6, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -540,7 +552,7 @@ PrefabInstance:
       objectReference: {fileID: 4341600915227263037}
     - target: {fileID: 4636770283034804964, guid: 0006201d1fcbcf949800169a30b71328, type: 3}
       propertyPath: jumpForce
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4636770283034804964, guid: 0006201d1fcbcf949800169a30b71328, type: 3}
       propertyPath: maxHealth
@@ -754,19 +766,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4236710199335529877, guid: 2a0cdc22da4f2554fbaa32fcf241faa2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -463
+      value: -782
       objectReference: {fileID: 0}
     - target: {fileID: 4236710199335529877, guid: 2a0cdc22da4f2554fbaa32fcf241faa2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 184
+      value: 357
       objectReference: {fileID: 0}
     - target: {fileID: 7298849927360339541, guid: 2a0cdc22da4f2554fbaa32fcf241faa2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -316
+      value: -691
       objectReference: {fileID: 0}
     - target: {fileID: 7298849927360339541, guid: 2a0cdc22da4f2554fbaa32fcf241faa2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 261
+      value: 463
+      objectReference: {fileID: 0}
+    - target: {fileID: 7332152298479340159, guid: 2a0cdc22da4f2554fbaa32fcf241faa2, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7332152298479340159, guid: 2a0cdc22da4f2554fbaa32fcf241faa2, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 7332152298479340159, guid: 2a0cdc22da4f2554fbaa32fcf241faa2, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 8736984910702064725, guid: 2a0cdc22da4f2554fbaa32fcf241faa2, type: 3}
       propertyPath: m_Name

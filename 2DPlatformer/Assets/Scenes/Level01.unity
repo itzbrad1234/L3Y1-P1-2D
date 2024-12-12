@@ -756,6 +756,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7773963175041778642, guid: 792370892cc02bc4dae5fae1de967cd5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7840586829451369744, guid: 792370892cc02bc4dae5fae1de967cd5, type: 3}
       propertyPath: m_Name
       value: PlayerContainer (1)
